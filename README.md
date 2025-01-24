@@ -53,3 +53,32 @@ To https://github.com/Derek0910/ict04_myapp.git
 // * [new branch]      master -> master
 * /
 위 창이 뜸
+
+/* 2025-01-24 */
+/* 다른 컴퓨터(PC_HOME) 에서 해당 프로젝트 작업을 하기 위한 준비 작업 8/
+12. $git init
+=> 해당 프로젝트를 다운로드 받을 폴더에서 초기화하기
+
+13. $git remote add origin "git_프로젝트 주소 - "" 넣지 않기"
+=> github.com -> code 눌러서 http 주소 복사 후 붙여넣기
+
+14. $git ls-remote
+=> 연결 하려는 컴퓨터(PC_HOME)의 브랜치 목록 확인
+
+15. $git pull origin master
+=> 해당 프로젝트 다운로드
+
+16. $git log
+=> git의 작업 내역 확인하기
+
+// *** clone ***
+
+17. $git clone url주소
+=> git clone 은 git init + git remote origin master + git pull
+=> 폴더까지 생성된다.
+=> 해당 git bash에서는 git log를 볼 수 없다. -> .git 파일이 없기 때문에!!
+
+// 시나리오 실습
+// 회사, 집, 카페, 출장
+2-1
+
